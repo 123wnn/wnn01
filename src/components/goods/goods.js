@@ -1,0 +1,219 @@
+
+// 后台给的数据结构
+export default {
+	"result": 0,
+	"status": 0,
+	"msg": "成功",
+	"data": [{
+		"id": 27,
+		"goodsGroupName": "旅行花絮",
+		"stock": 780,
+		"saleStock": 780,
+		"returnGrade": 0,
+		"description": "旅行花絮-测试数据勿动",
+		"shipCost": 0,
+		"price": 0.01,
+		"expectReturnDate": "2018.11",
+		"goodsList": [{
+			"id": 64,
+			"goodsName": "旅行花絮1",
+			"image": [{
+				"fileName": "bg_travel.jpg",
+				"filePath": "/zc/data/20180716/15317231972594mmljj.jpg"
+			}],
+			"singleBuyNum": 20,
+			"saleStock": 100,
+			"goodsAttribute": [{
+				"goodsAttributeId": 1,
+				"goodsAttributeName": "颜色",
+				"goodsAttributeSpecId": 1,
+				"goodsAttributeSpecName": "活力橙"
+			}, {
+				"goodsAttributeId": 3,
+				"goodsAttributeName": "产品净重",
+				"goodsAttributeSpecId": 11,
+				"goodsAttributeSpecName": "90g"
+			}, {
+				"goodsAttributeId": 6,
+				"goodsAttributeName": "尺寸",
+				"goodsAttributeSpecId": 30,
+				"goodsAttributeSpecName": "150*215cm"
+			}]
+		}, {
+			"id": 65,
+			"goodsName": "旅行花絮2",
+			"image": [{
+				"fileName": "bg_mine.jpg",
+				"filePath": "/zc/data/20180716/1531723262424qfqdwv.jpg"
+			}],
+			"singleBuyNum": 20,
+			"saleStock": 100,
+			"goodsAttribute": [{
+				"goodsAttributeId": 1,
+				"goodsAttributeName": "颜色",
+				"goodsAttributeSpecId": 1,
+				"goodsAttributeSpecName": "活力橙"
+			}, {
+				"goodsAttributeId": 3,
+				"goodsAttributeName": "产品净重",
+				"goodsAttributeSpecId": 11,
+				"goodsAttributeSpecName": "90g"
+			}, {
+				"goodsAttributeId": 6,
+				"goodsAttributeName": "尺寸",
+				"goodsAttributeSpecId": 31,
+				"goodsAttributeSpecName": "180*220cm"
+			}]
+		}, {
+			"id": 66,
+			"goodsName": "旅行花絮3",
+			"image": [{
+				"fileName": "bg_logistics_background.jpg",
+				"filePath": "/zc/data/20180716/1531723312329yycrgs.jpg"
+			}],
+			"singleBuyNum": 100,
+			"saleStock": 100,
+			"goodsAttribute": [{
+				"goodsAttributeId": 1,
+				"goodsAttributeName": "颜色",
+				"goodsAttributeSpecId": 2,
+				"goodsAttributeSpecName": "苹果绿"
+			}, {
+				"goodsAttributeId": 3,
+				"goodsAttributeName": "产品净重",
+				"goodsAttributeSpecId": 11,
+				"goodsAttributeSpecName": "90g"
+			}, {
+				"goodsAttributeId": 6,
+				"goodsAttributeName": "尺寸",
+				"goodsAttributeSpecId": 31,
+				"goodsAttributeSpecName": "180*220cm"
+			}]
+		}, {
+			"id": 67,
+			"goodsName": "旅行花絮4",
+			"image": [{
+				"fileName": "bg_entertainment.jpg",
+				"filePath": "/zc/data/20180716/1531723338202cxkb1w.jpg"
+			}],
+			"singleBuyNum": 20,
+			"saleStock": 90,
+			"goodsAttribute": [{
+				"goodsAttributeId": 1,
+				"goodsAttributeName": "颜色",
+				"goodsAttributeSpecId": 2,
+				"goodsAttributeSpecName": "苹果绿"
+			}, {
+				"goodsAttributeId": 3,
+				"goodsAttributeName": "产品净重",
+				"goodsAttributeSpecId": 24,
+				"goodsAttributeSpecName": "4400g"
+			}, {
+				"goodsAttributeId": 6,
+				"goodsAttributeName": "尺寸",
+				"goodsAttributeSpecId": 30,
+				"goodsAttributeSpecName": "150*215cm"
+			}]
+		}, {
+			"id": 68,
+			"goodsName": "旅行花絮5",
+			"image": [{
+				"fileName": "bg_food.jpg",
+				"filePath": "/zc/data/20180716/1531723477952m7n8mq.jpg"
+			}],
+			"singleBuyNum": 20,
+			"saleStock": 100,
+			"goodsAttribute": [{
+				"goodsAttributeId": 1,
+				"goodsAttributeName": "颜色",
+				"goodsAttributeSpecId": 3,
+				"goodsAttributeSpecName": "魅力灰"
+			}, {
+				"goodsAttributeId": 3,
+				"goodsAttributeName": "产品净重",
+				"goodsAttributeSpecId": 11,
+				"goodsAttributeSpecName": "90g"
+			}, {
+				"goodsAttributeId": 6,
+				"goodsAttributeName": "尺寸",
+				"goodsAttributeSpecId": 30,
+				"goodsAttributeSpecName": "150*215cm"
+			}]
+		}, {
+			"id": 69,
+			"goodsName": "旅行花絮6",
+			"image": [{
+				"fileName": "bg_logistics_background.jpg",
+				"filePath": "/zc/data/20180716/1531723525261dlzsrj.jpg"
+			}],
+			"singleBuyNum": 20,
+			"saleStock": 90,
+			"goodsAttribute": [{
+				"goodsAttributeId": 1,
+				"goodsAttributeName": "颜色",
+				"goodsAttributeSpecId": 3,
+				"goodsAttributeSpecName": "魅力灰"
+			}, {
+				"goodsAttributeId": 3,
+				"goodsAttributeName": "产品净重",
+				"goodsAttributeSpecId": 11,
+				"goodsAttributeSpecName": "90g"
+			}, {
+				"goodsAttributeId": 6,
+				"goodsAttributeName": "尺寸",
+				"goodsAttributeSpecId": 30,
+				"goodsAttributeSpecName": "150*215cm"
+			}]
+		}, {
+			"id": 70,
+			"goodsName": "旅行花絮7",
+			"image": [{
+				"fileName": "下载页-80.jpg",
+				"filePath": "/zc/data/20180716/1531723626763c1b2mu.jpg"
+			}],
+			"singleBuyNum": 100,
+			"saleStock": 100,
+			"goodsAttribute": [{
+				"goodsAttributeId": 1,
+				"goodsAttributeName": "颜色",
+				"goodsAttributeSpecId": 1,
+				"goodsAttributeSpecName": "活力橙"
+			}, {
+				"goodsAttributeId": 3,
+				"goodsAttributeName": "产品净重",
+				"goodsAttributeSpecId": 24,
+				"goodsAttributeSpecName": "4400g"
+			}, {
+				"goodsAttributeId": 6,
+				"goodsAttributeName": "尺寸",
+				"goodsAttributeSpecId": 30,
+				"goodsAttributeSpecName": "150*215cm"
+			}]
+		}, {
+			"id": 71,
+			"goodsName": "旅行花絮8",
+			"image": [{
+				"fileName": "bg_equity.jpg",
+				"filePath": "/zc/data/20180716/1531723655725nnkdq0.jpg"
+			}],
+			"singleBuyNum": 20,
+			"saleStock": 100,
+			"goodsAttribute": [{
+				"goodsAttributeId": 1,
+				"goodsAttributeName": "颜色",
+				"goodsAttributeSpecId": 2,
+				"goodsAttributeSpecName": "苹果绿"
+			}, {
+				"goodsAttributeId": 3,
+				"goodsAttributeName": "产品净重",
+				"goodsAttributeSpecId": 11,
+				"goodsAttributeSpecName": "90g"
+			}, {
+				"goodsAttributeId": 6,
+				"goodsAttributeName": "尺寸",
+				"goodsAttributeSpecId": 30,
+				"goodsAttributeSpecName": "150*215cm"
+			}]
+		}]
+	}]
+}
